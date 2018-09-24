@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- Device -->
+	<project name="PixysOS-Devices/device_motorola_harpia" path="device/motorola/harpia" remote="github" revision="pie" />
+	<project name="PixysOS-Devices/device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github" revision="pie-harpia" />
+	<project name="Harpia-development/kernel_harpia.git" path="kernel/motorola/msm8916" remote="github" revision="9" />
+	<project name="Harpia-development/vendor_harpia" path="vendor/motorola" remote="github" revision="o" />
+
+	<!-- Linaro 7.3 kernel toolchain -->
+	<project name="dev-harsh1998/GCC_BUILDS" path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.3" remote="github" revision="master" />
+	
+	<!-- Boringssl -->
+	<project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-15.1" />
+	<project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-15.1" />
+	
+</manifest>
