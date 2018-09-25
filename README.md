@@ -36,7 +36,7 @@ Then to sync up:
 Now start the build...
 
 	. build/envsetup.sh 
-	lunch pixya_harpia-userdebug
+	lunch pixys_harpia-userdebug
 	make pixys -jx
 
 Please see the [PixysOS Github](https://github.com/PixysOS) for further information.
