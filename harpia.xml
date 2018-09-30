@@ -3,7 +3,7 @@
 
 	<!-- Device -->
 	<project name="PixysOS-Devices/device_motorola_harpia" path="device/motorola/harpia" remote="github" revision="pie" />
-	<project name="PixysOS-Devices/device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github" revision="pie-harpia" />
+	<project name="Harpia-development/device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github" revision="9" />
 	<project name="Harpia-development/kernel_harpia.git" path="kernel/motorola/msm8916" remote="github" revision="9" />
 	<project name="Harpia-development/vendor_harpia" path="vendor/motorola" remote="github" revision="o" />
 
@@ -13,5 +13,10 @@
 	<!-- Boringssl -->
 	<project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-15.1" />
 	<project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-15.1" />
-	
+
+	<!-- LOS -->
+	<project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" remote="github" revision="lineage-16.0" />
+	<remove-project name="LineageOS/android_packages_apps_DeskClock" />	
+	<remove-project name="LineageOS/android_packages_apps_TvSettings" />	
+
 </manifest>
