@@ -15,11 +15,13 @@
 	<project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-15.1" />
 
 	<!-- LOS -->
+	<remove-project name="LineageOS/android_packages_apps_DeskClock" />
+	<remove-project name="LineageOS/android_packages_apps_DeskClock" />
+	<remove-project name="LineageOS/android_packages_apps_Camera2" />
+
+	<!-- SELinux -->
 	<project path="device/qcom/sepolicy-legacy" name="Harpia-development/android_device_qcom_sepolicy-legacy" remote="github" revision="lineage-16.0" />
-	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
-	<remove-project name="LineageOS/android_packages_apps_DeskClock" />
-	<remove-project name="LineageOS/android_packages_apps_DeskClock" />
-	<project path="packages/apps/DeskClock" name="Harpia-development/packages_apps_DeskClock" remote="github" revision="lineage-16.0" />
-	<project path="packages/apps/TvSettings" name="Harpia-development/packages_apps_TvSettings" remote="github" revision="lineage-16.0" />
+	<remove-project name="LineageOS/android_system_sepolicy" />
+	<project path="system/sepolicy" name="Harpia-development/android_system_sepolicy" remote="github" revision="lineage-16.0" />	
 
 </manifest>
