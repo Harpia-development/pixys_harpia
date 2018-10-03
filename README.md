@@ -4,12 +4,12 @@ PixysOS Pie for Harpia
 Current Status
 --------------
 
-IDK
+All things are working and almost same as oreo harpia builds
 
 Download
 --------
 
-IDK
+Maybe later
 
 Build Instructions
 ------------------
