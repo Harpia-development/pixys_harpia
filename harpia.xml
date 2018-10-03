@@ -21,5 +21,9 @@
 	<remove-project name="LineageOS/android_system_sepolicy" />
 	<project name="Harpia-development/android_system_sepolicy" path="system/sepolicy" remote="github" revision="lineage-16.0" />	
 
+<!-- WiFi -->	
+<remove-project name="PixysOS/hardware_qcom_wlan" >	
+<project name="Harpia-development android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="github" revision="lineage-16.0-caf" />
+
 
 </manifest>
