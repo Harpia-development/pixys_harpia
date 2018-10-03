@@ -16,12 +16,20 @@
 
 	<!-- LOS -->
 	<remove-project name="LineageOS/android_packages_apps_DeskClock" />
-	<remove-project name="LineageOS/android_packages_apps_DeskClock" />
+	<remove-project name="LineageOS/android_packages_apps_TvSettings" />
 	<remove-project name="LineageOS/android_packages_apps_Camera2" />
 
+	<!-- AOSP -->
+	<project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" remote="aosp" revision="pie-release" />
+	<project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" remote="aosp" revision="pie-release" />
+
 	<!-- SELinux -->
-	<project path="device/qcom/sepolicy-legacy" name="Harpia-development/android_device_qcom_sepolicy-legacy" remote="github" revision="lineage-16.0" />
+	<project name="Harpia-development/android_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="github" revision="lineage-16.0" />
 	<remove-project name="LineageOS/android_system_sepolicy" />
-	<project path="system/sepolicy" name="Harpia-development/android_system_sepolicy" remote="github" revision="lineage-16.0" />	
+	<project name="Harpia-development/android_system_sepolicy" path="system/sepolicy" remote="github" revision="lineage-16.0" />	
+
+	<!-- WiFi -->
+	<remove-project name="PixysOS/hardware_qcom_wlan" />
+	<project name="Harpia-development/android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="github" revision="lineage-16.0-caf" />
 
 </manifest>
