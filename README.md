@@ -4,12 +4,12 @@ PixysOS Pie for Harpia
 Current Status
 --------------
 
-All things are working and almost same as oreo harpia builds
+IDK
 
 Download
 --------
 
-Maybe later
+IDK
 
 Build Instructions
 ------------------
@@ -26,6 +26,10 @@ Now move your magic wand
 	
 	wget -O pix.sh https://github.com/Harpia-development/pixys_harpia/raw/master/pix.sh
 	bash pix.sh
+
+Move the magic band
+
+ bash magic.sh
 
 Do this everytime before every sync for tracking changes.
 
